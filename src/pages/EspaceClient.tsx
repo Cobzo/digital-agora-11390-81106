@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 import { User } from "@supabase/supabase-js";
+import { Construction } from "lucide-react";
 
 const EspaceClient = () => {
   const navigate = useNavigate();
@@ -102,6 +103,20 @@ const EspaceClient = () => {
                   <span className="font-medium">{profile?.phone}</span>
                 </div>
               </div>
+            </div>
+
+            <div className="space-y-4 mt-8">
+              <Card className="border-2 border-dashed border-primary/30 bg-gradient-to-br from-primary/5 to-accent/5">
+                <CardContent className="flex flex-col items-center justify-center py-12 px-6 text-center">
+                  <Construction className="w-16 h-16 text-primary mb-4" />
+                  <h3 className="text-2xl font-semibold mb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                    Work in Progress
+                  </h3>
+                  <p className="text-muted-foreground max-w-md">
+                    De nouvelles fonctionnalités seront bientôt disponibles ici pour améliorer votre expérience.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
 
             <div className="flex gap-4 pt-4">
