@@ -24,8 +24,8 @@ const Pricing = () => {
     {
       name: "Business",
       description: "Le site pro complet, rapide et prêt à l'emploi",
-      monthlyPrice: "17",
-      yearlyPrice: "199",
+      monthlyPrice: "19",
+      yearlyPrice: "228",
       setupFee: "49",
       features: [
         "3 à 5 pages",
@@ -38,8 +38,8 @@ const Pricing = () => {
     {
       name: "Evolve",
       description: "Pour booster sa visibilité et suivre ses performances",
-      monthlyPrice: "23",
-      yearlyPrice: "269",
+      monthlyPrice: "29",
+      yearlyPrice: "348",
       setupFee: "offert",
       features: [
         "5+ pages personnalisées",
@@ -88,11 +88,7 @@ const Pricing = () => {
                   <div className="text-sm text-muted-foreground mt-1">
                     Soit {plan.yearlyPrice}€/an
                   </div>
-                  <div className={`text-sm mt-4 font-medium ${
-                    plan.setupFee === 'offert' 
-                      ? 'text-primary' 
-                      : 'text-muted-foreground'
-                  }`}>
+                  <div className="text-sm mt-4 font-medium text-primary">
                     Création du site : {plan.setupFee === 'offert' ? 'Offert' : `${plan.setupFee}€`}
                   </div>
                 </div>
