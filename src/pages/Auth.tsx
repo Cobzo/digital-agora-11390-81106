@@ -215,7 +215,7 @@ const Auth = () => {
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-4">
           <div className="flex flex-col items-center gap-4">
-            <img src={logo} alt="Logo" className="h-16 w-auto" />
+            <img src={logo} alt="Logo" className="h-16 w-auto" loading="lazy" decoding="async" />
             <div className="text-center">
               <CardTitle className="text-2xl">Espace Client</CardTitle>
               <CardDescription>

@@ -1,11 +1,14 @@
+import { lazy, Suspense } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Statistics from "@/components/Statistics";
-import Services from "@/components/Services";
-import MobileFirst from "@/components/MobileFirst";
-import Pricing from "@/components/Pricing";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+
+// Lazy load non-critical sections
+const Services = lazy(() => import("@/components/Services"));
+const MobileFirst = lazy(() => import("@/components/MobileFirst"));
+const Pricing = lazy(() => import("@/components/Pricing"));
+const Contact = lazy(() => import("@/components/Contact"));
+const Footer = lazy(() => import("@/components/Footer"));
 
 const Index = () => {
   return (
@@ -13,11 +16,13 @@ const Index = () => {
       <Header />
       <Hero />
       <Statistics />
-      <Services />
-      <MobileFirst />
-      <Pricing />
-      <Contact />
-      <Footer />
+      <Suspense fallback={<div className="py-24 text-center">Chargement...</div>}>
+        <Services />
+        <MobileFirst />
+        <Pricing />
+        <Contact />
+        <Footer />
+      </Suspense>
     </div>
   );
 };

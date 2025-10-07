@@ -45,6 +45,8 @@ const MobileFirst = () => {
                 src={storeExterior} 
                 alt="Clients découvrant le commerce via mobile"
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
