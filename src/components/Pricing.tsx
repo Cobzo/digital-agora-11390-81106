@@ -16,7 +16,7 @@ const Pricing = () => {
       setupFee: "49",
       features: [
         "1 page vitrine responsive",
-        "Domaine & hébergement inclus",
+        "Domaine & hébergement inclus*",
         "HTTPS (Cloudflare SSL)",
         "Support & mises à jour"
       ]
@@ -29,7 +29,7 @@ const Pricing = () => {
       setupFee: "49",
       features: [
         "3 à 5 pages",
-        "Nom de domaine & hébergement",
+        "Domaine & hébergement inclus*",
         "Sécurité SSL + optimisations",
         "Maintenance et support"
       ],
@@ -43,6 +43,7 @@ const Pricing = () => {
       setupFee: "offert",
       features: [
         "5+ pages personnalisées",
+        "Domaine & hébergement inclus*",
         "SEO local + Google Analytics",
         "Sauvegardes & suivi performance",
         "Maintenance prioritaire"
@@ -120,6 +121,12 @@ const Pricing = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+        
+        <div className="mt-8 text-center">
+          <p className="text-sm text-muted-foreground">
+            * Les noms de domaine coûtant plus de 25€ par an seront à la charge du client.
+          </p>
         </div>
       </div>
     </section>
