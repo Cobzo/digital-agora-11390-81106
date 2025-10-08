@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 import { User } from "@supabase/supabase-js";
 import { Construction } from "lucide-react";
+import SEO from "@/components/SEO";
 
 const EspaceClient = () => {
   const navigate = useNavigate();
@@ -77,6 +78,12 @@ const EspaceClient = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/10 p-4">
+      <SEO
+        title="Espace Client - Digital Agora"
+        description="Gérez vos projets et services Digital Agora"
+        canonical="https://digital-agora.fr/espace-client"
+        noindex
+      />
       <div className="container max-w-4xl mx-auto py-12">
         <Card>
           <CardHeader>

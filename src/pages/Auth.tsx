@@ -11,6 +11,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import { ArrowLeft } from "lucide-react";
 import { z } from "zod";
 import logo from "@/assets/logo.png";
+import SEO from "@/components/SEO";
 
 const loginSchema = z.object({
   email: z.string().trim().email({ message: "Email invalide" }),
@@ -203,6 +204,12 @@ const Auth = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-accent/10 p-4">
+      <SEO
+        title="Connexion - Digital Agora"
+        description="Accédez à votre espace client Digital Agora"
+        canonical="https://digital-agora.fr/auth"
+        noindex
+      />
       <div className="absolute top-4 left-4">
         <Link to="/">
           <Button variant="ghost" size="sm">

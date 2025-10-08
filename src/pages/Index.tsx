@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Statistics from "@/components/Statistics";
+import SEO from "@/components/SEO";
 
 // Lazy load non-critical sections
 const Services = lazy(() => import("@/components/Services"));
@@ -13,6 +14,11 @@ const Footer = lazy(() => import("@/components/Footer"));
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Digital Agora - Solutions Web Tout-en-Un pour Entreprises Physiques"
+        description="Transformez votre entreprise physique en puissance numérique. Digital Agora offre création de site web, gestion de domaine et hébergement dans un seul abonnement."
+        canonical="https://digital-agora.fr/"
+      />
       <Header />
       <Hero />
       <Statistics />
