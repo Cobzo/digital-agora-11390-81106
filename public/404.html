@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page non trouvée | Digital Agora</title>
+    <meta name="description" content="La page que vous recherchez n'existe pas. Retournez à l'accueil de Digital Agora pour découvrir nos solutions web tout-en-un." />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="https://digital-agora.fr/" />
+    
+    <!-- Redirect to main app to let React Router handle 404 -->
+    <script>
+      sessionStorage.setItem('redirected', window.location.pathname);
+      window.location.replace('/');
+    </script>
+    
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+      }
+      .container {
+        text-align: center;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 6rem;
+        margin: 0;
+      }
+      p {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+      }
+      .loader {
+        margin: 2rem auto;
+        border: 4px solid rgba(255,255,255,0.3);
+        border-radius: 50%;
+        border-top: 4px solid white;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>404</h1>
+      <p>Page non trouvée</p>
+      <div class="loader"></div>
+      <p style="font-size: 1rem;">Redirection en cours...</p>
+      <noscript>
+        <p><a href="/" style="color: white;">Cliquez ici pour retourner à l'accueil</a></p>
+      </noscript>
+    </div>
+  </body>
+</html>
