@@ -1,14 +1,17 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
+# Robots.txt – digital-agora.fr
 User-agent: *
 Allow: /
+
+# Dossiers techniques (adapte si absent)
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /private/
+
+# Pages à ne pas indexer (login/espace client)
+Disallow: /login
+Disallow: /signin
+Disallow: /dashboard
+Disallow: /espace-client
+
+# Déclaration du sitemap
+Sitemap: https://digital-agora.fr/sitemap.xml
