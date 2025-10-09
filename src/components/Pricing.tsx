@@ -13,10 +13,10 @@ const Pricing = () => {
       description: "Idéal pour présenter son activité ou service unique",
       monthlyPrice: "12",
       yearlyPrice: "139",
-      setupFee: "49",
+      setupFee: "99",
       features: [
         "1 page vitrine responsive",
-        "Domaine & hébergement inclus*",
+        "Domaine & hébergement*",
         "HTTPS (Cloudflare SSL)",
         "Support & mises à jour"
       ]
@@ -26,10 +26,10 @@ const Pricing = () => {
       description: "Le site pro complet, rapide et prêt à l'emploi",
       monthlyPrice: "19",
       yearlyPrice: "228",
-      setupFee: "49",
+      setupFee: "99",
       features: [
         "3 à 5 pages",
-        "Domaine & hébergement inclus*",
+        "Domaine & hébergement*",
         "Sécurité SSL + optimisations",
         "Maintenance et support"
       ],
@@ -43,7 +43,7 @@ const Pricing = () => {
       setupFee: "offert",
       features: [
         "5+ pages personnalisées",
-        "Domaine & hébergement inclus*",
+        "Domaine & hébergement*",
         "SEO local + Google Analytics",
         "Sauvegardes & suivi performance",
         "Maintenance prioritaire"
@@ -125,7 +125,7 @@ const Pricing = () => {
         
         <div className="mt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            * Les noms de domaine coûtant plus de 25€ par an seront à la charge du client.
+            * Le nom de domaine est à la charge du client.
           </p>
         </div>
       </div>
