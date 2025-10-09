@@ -25,7 +25,7 @@ const ContactPopup = ({ open, onOpenChange }: ContactPopupProps) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "0e3666bf-431d-446d-9cdc-4cf40ebf4c8f",
+          access_key: "73b34dc0-76f3-49fb-8119-193470844f2b",
           email: email,
           subject: "Nouvelle demande de contact - Digital Agora"
         }),
@@ -65,8 +65,8 @@ const ContactPopup = ({ open, onOpenChange }: ContactPopupProps) => {
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Mail className="h-4 w-4 text-primary" />
-              <a href="mailto:severinab80@gmail.com" className="hover:text-primary transition-colors">
-                severinab80@gmail.com
+              <a href="mailto:contact@digital-agora.fr" className="hover:text-primary transition-colors">
+                contact@digital-agora.fr
               </a>
             </div>
           </div>

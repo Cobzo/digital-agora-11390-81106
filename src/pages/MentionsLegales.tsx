@@ -24,7 +24,7 @@ const MentionsLegales = () => {
             <ul className="list-none space-y-1 ml-0">
               <li><strong>Neyret Séverin</strong> – Micro-entrepreneur</li>
               <li><strong>Adresse :</strong> 49 rue de la Convention, 42300 Roanne</li>
-              <li><strong>Email :</strong> severinab80@gmail.com</li>
+              <li><strong>Email :</strong> contact@digital-agora.fr</li>
               <li><strong>Téléphone :</strong> 07 69 64 00 74</li>
               <li><strong>Code APE :</strong> 6201Z — Programmation informatique</li>
               <li><strong>TVA :</strong> non applicable – article 293B du CGI</li>

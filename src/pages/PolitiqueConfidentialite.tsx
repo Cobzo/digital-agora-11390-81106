@@ -41,7 +41,7 @@ const PolitiqueConfidentialite = () => {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Vos droits</h2>
             <p>
-              L'utilisateur dispose d'un droit d'accès, de rectification et de suppression de ses données personnelles, qu'il peut exercer en contactant : <a href="mailto:severinab80@gmail.com" className="text-primary hover:underline">severinab80@gmail.com</a>.
+              L'utilisateur dispose d'un droit d'accès, de rectification et de suppression de ses données personnelles, qu'il peut exercer en contactant : <a href="mailto:contact@digital-agora.fr" className="text-primary hover:underline">contact@digital-agora.fr</a>.
             </p>
           </section>
         </div>
