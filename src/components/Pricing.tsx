@@ -54,11 +54,11 @@ const Pricing = () => {
   return (
     <section className="py-24 px-6 bg-gradient-to-b from-secondary/20 to-background">
       <div className="container max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
             Tarification Simple et Transparente
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Choisissez l'offre adaptée à vos besoins. Sans frais cachés, sans engagement.
           </p>
         </div>
@@ -77,19 +77,19 @@ const Pricing = () => {
                 </div>
               )}
               
-              <CardHeader className="text-center pb-8">
-                <CardTitle className="text-2xl mb-2">{plan.name}</CardTitle>
-                <CardDescription className="text-sm min-h-[3rem]">
+              <CardHeader className="text-center pb-6 md:pb-8">
+                <CardTitle className="text-xl md:text-2xl mb-2">{plan.name}</CardTitle>
+                <CardDescription className="text-xs md:text-sm min-h-[2.5rem] md:min-h-[3rem]">
                   {plan.description}
                 </CardDescription>
-                <div className="mt-6">
-                  <div className="text-4xl font-bold text-primary">
-                    {plan.monthlyPrice}€<span className="text-lg text-muted-foreground">/mois</span>
+                <div className="mt-4 md:mt-6">
+                  <div className="text-3xl md:text-4xl font-bold text-primary">
+                    {plan.monthlyPrice}€<span className="text-base md:text-lg text-muted-foreground">/mois</span>
                   </div>
-                  <div className="text-sm text-muted-foreground mt-1">
+                  <div className="text-xs md:text-sm text-muted-foreground mt-1">
                     Soit {plan.yearlyPrice}€/an
                   </div>
-                  <div className="text-sm mt-4 font-medium text-primary">
+                  <div className="text-xs md:text-sm mt-3 md:mt-4 font-medium text-primary">
                     Création du site : {plan.setupFee === 'offert' ? 'Offert' : `${plan.setupFee}€`}
                   </div>
                 </div>

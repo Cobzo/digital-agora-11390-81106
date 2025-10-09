@@ -31,11 +31,11 @@ const Statistics = () => {
   return (
     <section className="py-24 px-6 bg-background">
       <div className="container max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
             Les Chiffres Parlent d'Eux-Mêmes
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Découvrez l'impact réel d'une présence en ligne pour votre commerce
           </p>
         </div>
@@ -46,16 +46,16 @@ const Statistics = () => {
               key={index} 
               className="border-2 hover:border-primary hover:shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.3)] transition-all duration-300 group bg-secondary/30"
             >
-              <CardHeader className="text-center pb-3">
-                <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-4">
+              <CardHeader className="text-center pb-2 md:pb-3">
+                <h3 className="text-xs md:text-sm font-medium text-muted-foreground uppercase tracking-wide mb-2 md:mb-4">
                   {stat.title}
                 </h3>
-                <div className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                <div className="text-3xl md:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   {stat.percentage}
                 </div>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                <p className="text-xs md:text-sm text-muted-foreground leading-relaxed mb-3 md:mb-4">
                   {stat.description}
                 </p>
                 <p className="text-xs font-medium text-primary">

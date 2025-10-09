@@ -26,11 +26,11 @@ const Services = () => {
   return (
     <section className="py-24 px-6 bg-gradient-to-b from-background to-secondary/20">
       <div className="container max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
             Tout Ce Dont Vous Avez Besoin, Au Même Endroit
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
             Arrêtez de jongler entre plusieurs fournisseurs. Obtenez votre présence en ligne complète avec un seul abonnement.
           </p>
         </div>
@@ -42,11 +42,11 @@ const Services = () => {
               className="border-2 hover:border-primary hover:shadow-[0_10px_40px_-10px_hsl(var(--primary)/0.3)] transition-all duration-300 group"
             >
               <CardHeader>
-                <div className="mb-4 w-14 h-14 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <service.icon className="h-7 w-7 text-primary-foreground" />
+                <div className="mb-3 md:mb-4 w-12 h-12 md:w-14 md:h-14 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <service.icon className="h-6 w-6 md:h-7 md:w-7 text-primary-foreground" />
                 </div>
-                <CardTitle className="text-2xl">{service.title}</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-xl md:text-2xl">{service.title}</CardTitle>
+                <CardDescription className="text-sm md:text-base">
                   {service.description}
                 </CardDescription>
               </CardHeader>
