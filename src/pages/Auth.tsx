@@ -37,6 +37,7 @@ const Auth = () => {
   const [resetEmail, setResetEmail] = useState("");
   const [resetLoading, setResetLoading] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState("login");
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -145,8 +146,9 @@ const Auth = () => {
       } else {
         toast({
           title: "Inscription réussie",
-          description: "Vérifiez votre email pour confirmer votre compte",
+          description: "Un email de confirmation vous a été envoyé. Veuillez confirmer votre adresse mail et vérifier vos spams si vous ne le trouvez pas.",
         });
+        setActiveTab("login");
       }
     } catch (error) {
       if (error instanceof z.ZodError) {
@@ -232,7 +234,7 @@ const Auth = () => {
           </div>
         </CardHeader>
         <CardContent>
-          <Tabs defaultValue="login">
+          <Tabs value={activeTab} onValueChange={setActiveTab}>
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="login">Se connecter</TabsTrigger>
               <TabsTrigger value="signup">S'inscrire</TabsTrigger>
