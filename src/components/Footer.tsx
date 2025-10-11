@@ -1,15 +1,11 @@
 import { Link } from "react-router-dom";
-
 const Footer = () => {
-  return (
-    <footer className="py-8 px-6 border-t bg-background">
+  return <footer className="py-8 px-6 border-t bg-background">
       <div className="container max-w-6xl mx-auto">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Digital Agora
-              </h3>
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Agora Flow</h3>
               <p className="text-sm text-muted-foreground mt-1">
                 Accompagner les entreprises en ligne
               </p>
@@ -39,8 +35,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
