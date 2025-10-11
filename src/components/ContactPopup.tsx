@@ -65,8 +65,8 @@ const ContactPopup = ({ open, onOpenChange }: ContactPopupProps) => {
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Mail className="h-4 w-4 text-primary" />
-              <a href="mailto:contact@digital-agora.fr" className="hover:text-primary transition-colors">
-                contact@digital-agora.fr
+              <a href="mailto:contact@agoraflow.fr" className="hover:text-primary transition-colors">
+                contact@agoraflow.fr
               </a>
             </div>
           </div>
