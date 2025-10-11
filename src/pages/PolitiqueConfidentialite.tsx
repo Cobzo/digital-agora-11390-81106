@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
-
 const PolitiqueConfidentialite = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <div className="container max-w-4xl mx-auto px-6 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">
@@ -19,9 +17,7 @@ const PolitiqueConfidentialite = () => {
 
         <div className="prose prose-lg max-w-none space-y-6 text-foreground">
           <section>
-            <p>
-              Le site Digital Agora respecte la vie privée de ses utilisateurs conformément au Règlement Général sur la Protection des Données (RGPD).
-            </p>
+            <p>Le site Agora Flow respecte la vie privée de ses utilisateurs conformément au Règlement Général sur la Protection des Données (RGPD).</p>
           </section>
 
           <section>
@@ -46,8 +42,6 @@ const PolitiqueConfidentialite = () => {
           </section>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default PolitiqueConfidentialite;
