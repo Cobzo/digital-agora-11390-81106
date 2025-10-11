@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
-
 const PolitiqueCookies = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <div className="container max-w-4xl mx-auto px-6 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">
@@ -20,9 +18,7 @@ const PolitiqueCookies = () => {
         <div className="prose prose-lg max-w-none space-y-6 text-foreground">
           <section>
             <h2 className="text-2xl font-semibold mb-4">Utilisation des cookies</h2>
-            <p>
-              Le site Digital Agora utilise des cookies strictement nécessaires à son bon fonctionnement (sécurité, performance). Aucun cookie publicitaire ou de suivi n'est installé sans le consentement explicite de l'utilisateur.
-            </p>
+            <p>Le site Agora Flow utilise des cookies strictement nécessaires à son bon fonctionnement (sécurité, performance). Aucun cookie publicitaire ou de suivi n'est installé sans le consentement explicite de l'utilisateur.</p>
           </section>
 
           <section>
@@ -33,8 +29,6 @@ const PolitiqueCookies = () => {
           </section>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default PolitiqueCookies;
