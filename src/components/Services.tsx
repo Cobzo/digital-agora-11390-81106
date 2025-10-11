@@ -17,7 +17,7 @@ const services = [
   {
     icon: Shield,
     title: "Hébergement Fiable",
-    description: "Hébergement de qualité entreprise avec 99,9% de disponibilité. Votre site reste rapide, sécurisé et toujours accessible.",
+    description: "Hébergement de qualité entreprise avec 100% de disponibilité. Votre site reste rapide, sécurisé et toujours accessible.",
     features: ["Serveurs haute vitesse", "Sauvegardes quotidiennes", "Protection DDoS", "Surveillance 24/7"]
   }
 ];
