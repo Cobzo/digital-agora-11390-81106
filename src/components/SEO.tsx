@@ -10,7 +10,7 @@ type Props = {
 
 export default function SEO({
   title = "Agora Flow — Agence web à Roanne",
-  description = "Création de sites, SEO, automatisation et IA.",
+  description = "Création de sites, hébergement, noms de domaines, et gestions SEO.",
   canonical = "https://agoraflow.fr/",
   noindex = false,
   image = "https://agoraflow.fr/og-image.png",
