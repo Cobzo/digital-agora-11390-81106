@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
-
 const CGU = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <div className="container max-w-4xl mx-auto px-6 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">
@@ -20,9 +18,7 @@ const CGU = () => {
         <div className="prose prose-lg max-w-none space-y-6 text-foreground">
           <section>
             <h2 className="text-2xl font-semibold mb-4">Acceptation des conditions</h2>
-            <p>
-              L'utilisation du site Digital Agora implique l'acceptation pleine et entière des présentes conditions générales d'utilisation.
-            </p>
+            <p>L'utilisation du site Agora Flow implique l'acceptation pleine et entière des présentes conditions générales d'utilisation.</p>
           </section>
 
           <section>
@@ -40,8 +36,6 @@ const CGU = () => {
           </section>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default CGU;
