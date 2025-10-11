@@ -15,9 +15,9 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Digital Agora - Solutions Web Tout-en-Un pour Entreprises Physiques"
-        description="Transformez votre entreprise physique en puissance numérique. Digital Agora offre création de site web, gestion de domaine et hébergement dans un seul abonnement."
-        canonical="https://digital-agora.fr/"
+        title="Agora Flow - Solutions Web Tout-en-Un pour Entreprises Physiques"
+        description="Transformez votre entreprise physique en puissance numérique. Agora Flow offre création de site web, gestion de domaine et hébergement dans un seul abonnement."
+        canonical="https://agoraflow.fr/"
       />
       <Header />
       <Hero />

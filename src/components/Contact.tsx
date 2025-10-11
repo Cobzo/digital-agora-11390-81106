@@ -50,7 +50,7 @@ const Contact = () => {
           email: formData.email.trim(),
           phone: formData.phone.trim(),
           message: formData.message.trim(),
-          subject: "New Contact Form Submission from Digital Agora Website"
+          subject: "New Contact Form Submission from Agora Flow Website"
         }),
       });
 

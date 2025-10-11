@@ -79,9 +79,9 @@ const EspaceClient = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-accent/10 p-4">
       <SEO
-        title="Espace Client - Digital Agora"
-        description="Gérez vos projets et services Digital Agora"
-        canonical="https://digital-agora.fr/espace-client"
+        title="Espace Client - Agora Flow"
+        description="Gérez vos projets et services Agora Flow"
+        canonical="https://agoraflow.fr/espace-client"
         noindex
       />
       <div className="container max-w-4xl mx-auto py-12">

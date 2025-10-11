@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             
             <div className="text-center md:text-right text-sm text-muted-foreground">
-              <p>&copy; {new Date().getFullYear()} Digital Agora. Tous droits réservés.</p>
+              <p>&copy; {new Date().getFullYear()} Agora Flow. Tous droits réservés.</p>
             </div>
           </div>
 

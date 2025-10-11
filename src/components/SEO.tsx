@@ -9,11 +9,11 @@ type Props = {
 };
 
 export default function SEO({
-  title = "Digital Agora — Agence web à Roanne",
+  title = "Agora Flow — Agence web à Roanne",
   description = "Création de sites, SEO, automatisation et IA.",
-  canonical = "https://digital-agora.fr/",
+  canonical = "https://agoraflow.fr/",
   noindex = false,
-  image = "https://digital-agora.fr/og-image.png",
+  image = "https://agoraflow.fr/og-image.png",
 }: Props) {
   return (
     <Helmet>

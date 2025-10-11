@@ -11,7 +11,7 @@ const Header = () => {
         <div className="container max-w-6xl mx-auto px-4 py-3 sm:px-6 sm:py-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-0">
             <div className="flex items-center gap-2 sm:gap-3">
-              <img src={logo} alt="Digital Agora Logo" className="h-6 w-6 sm:h-8 sm:w-8" />
+              <img src={logo} alt="Agora Flow Logo" className="h-6 w-6 sm:h-8 sm:w-8" />
               <h1 className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Agora Flow</h1>
             </div>
             <p className="hidden md:block text-sm font-medium text-muted-foreground">

@@ -27,7 +27,7 @@ const ContactPopup = ({ open, onOpenChange }: ContactPopupProps) => {
         body: JSON.stringify({
           access_key: "73b34dc0-76f3-49fb-8119-193470844f2b",
           email: email,
-          subject: "Nouvelle demande de contact - Digital Agora"
+          subject: "Nouvelle demande de contact - Agora Flow"
         }),
       });
 

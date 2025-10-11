@@ -207,9 +207,9 @@ const Auth = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-accent/10 p-4">
       <SEO
-        title="Connexion - Digital Agora"
-        description="Accédez à votre espace client Digital Agora"
-        canonical="https://digital-agora.fr/auth"
+        title="Connexion - Agora Flow"
+        description="Accédez à votre espace client Agora Flow"
+        canonical="https://agoraflow.fr/auth"
         noindex
       />
       <div className="absolute top-4 left-4">
