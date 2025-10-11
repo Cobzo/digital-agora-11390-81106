@@ -20,7 +20,7 @@ const MentionsLegales = () => {
             <h2 className="text-2xl font-semibold mb-4">Éditeur du site</h2>
             <p>Le présent site est édité par :</p>
             <ul className="list-none space-y-1 ml-0">
-              <li><strong>Neyret Séverin</strong> – Micro-entrepreneur</li>
+              <li><strong>Neyret Séverin</strong> – Entreprise Agora Flow</li>
               <li><strong>Adresse :</strong> 49 rue de la Convention, 42300 Roanne</li>
               <li><strong>Email :</strong> contact@digital-agora.fr</li>
               <li><strong>Téléphone :</strong> 07 69 64 00 74</li>
