@@ -30,9 +30,7 @@ const CGU = () => {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Responsabilité</h2>
-            <p>
-              Digital Agora ne saurait être tenue responsable des dommages directs ou indirects résultant de l'utilisation du site ou de l'impossibilité d'y accéder.
-            </p>
+            <p>Agora Flow ne saurait être tenue responsable des dommages directs ou indirects résultant de l'utilisation du site ou de l'impossibilité d'y accéder.</p>
           </section>
         </div>
       </div>
