@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
-
 const MentionsLegales = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <div className="container max-w-4xl mx-auto px-6 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">
@@ -42,14 +40,10 @@ const MentionsLegales = () => {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Objet du site</h2>
-            <p>
-              Le site Digital Agora a pour objet la présentation et la vente de services de création de sites web.
-            </p>
+            <p>Le site Agora Flow a pour objet la présentation et la vente de services de création de sites web.</p>
           </section>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default MentionsLegales;
